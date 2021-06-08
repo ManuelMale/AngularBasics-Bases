@@ -1,0 +1,30 @@
+
+
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes>
+        </app-personajes>
+    </div>
+
+    <div class="col">
+        <app-agregar 
+            [nuevo]="nuevo"
+            ></app-agregar>
+        
+    </div>
+
+
+</div>
+
+<!-- El outpot sirve para EMITIR eventos -->
+<!-- Los parentesis son para emitir o escuchar evento, y las llaves cuadradas para agregar un valor a una propiedad -->
+
+            <!-- <input 
+            type="text" 
+            placeholder="Nombre"
+            [value]="nuevo.nombre" 
+            (input)="cambiarNombre( $event )" 
+            />  -->
